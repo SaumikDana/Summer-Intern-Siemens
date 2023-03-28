@@ -26,7 +26,8 @@ The output will be a sequence of contour plots showing the temperature distribut
 Outputs
 
 The code generates contour plots showing the temperature distribution and the toolpath overlay for each segment of the toolpath. The plots are saved in PNG format in the current working directory.
-References
+
+## References
 
     FEniCS Project. (n.d.). FEniCS Documentation. Retrieved from https://fenicsproject.org/documentation/
     Triangulation class — Matplotlib 3.5.0 documentation. (n.d.). Retrieved from https://matplotlib.org/stable/api/tri_api.html
