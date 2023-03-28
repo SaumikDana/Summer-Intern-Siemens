@@ -20,10 +20,11 @@ The toolpath information should be provided in an Excel file named data1.xlsx. T
 
 To run the code, execute the following command in the terminal:
 
-python3 additive_manufacturing.py
+    python3 additive_manufacturing.py
 
 The output will be a sequence of contour plots showing the temperature distribution and the toolpath overlay for each segment of the toolpath.
-Outputs
+
+## Outputs
 
 The code generates contour plots showing the temperature distribution and the toolpath overlay for each segment of the toolpath. The plots are saved in PNG format in the current working directory.
 
