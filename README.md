@@ -20,7 +20,13 @@ The toolpath information should be provided in an Excel file named data1.xlsx. T
 
 To run the code, execute the following command in the terminal:
 
-    python3 additive_manufacturing.py
+    python3 benchmark.py
+
+For the benchmark model, And
+
+    python3 homogenized.py
+
+For the reduced order model
 
 The output will be a sequence of contour plots showing the temperature distribution and the toolpath overlay for each segment of the toolpath.
 
