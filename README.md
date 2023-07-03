@@ -11,7 +11,7 @@ The code requires the following Python packages to be installed:
 
 ## *FeNICS/dolfin*
 
-The FEniCS Project, as described on its Wikipedia page, is a collection of free and open-source software components with the common goal to enable automated solution of differential equations. The components provide scientific computing tools for working with computational meshes, finite-element variational formulations of ordinary and partial differential equations, and numerical linear algebra.
+The FEniCS Project is a collection of free and open-source software components with the common goal to enable automated solution of differential equations. The components provide scientific computing tools for working with computational meshes, finite-element variational formulations of ordinary and partial differential equations, and numerical linear algebra.
 
 The FEniCS Project is designed as an umbrella project for a collection of interoperable components. The core components include:
 
