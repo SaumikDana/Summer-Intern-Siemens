@@ -9,7 +9,7 @@ The code requires the following Python packages to be installed:
     matplotlib
     xlrd
 
-## *FeNICS/dolfin*
+## *FEniCS/dolfin*
 
 The FEniCS Project is a collection of free and open-source software components with the common goal to enable automated solution of differential equations. The components provide scientific computing tools for working with computational meshes, finite-element variational formulations of ordinary and partial differential equations, and numerical linear algebra.
 
