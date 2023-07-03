@@ -30,10 +30,10 @@ The FEniCS Project was initiated in 2003 as a research collaboration between the
 
 The toolpath information should be provided in an Excel file named data1.xlsx. The file should have the following columns:
 
-    Column 1: Time (in milliseconds)
-    Column 2: x-coordinate of the toolpath
-    Column 3: y-coordinate of the toolpath
-    Column 4: Layer number (not used in this code)
+- Column 1: Time (in milliseconds)
+- Column 2: x-coordinate of the toolpath
+- Column 3: y-coordinate of the toolpath
+- Column 4: Layer number (not used in this code)
 
 To run the code, execute the following command in the terminal:
 
