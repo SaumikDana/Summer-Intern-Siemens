@@ -1,9 +1,6 @@
 ## *Overview*
 
-This Python code simulates the temperature distribution in a domain during an additive manufacturing process, where a laser beam is used to melt a material and create a microslice layer by layer. The code uses the finite element method to solve the heat equation with convection, conduction, and heat generation terms. The toolpath information is read in from an Excel file, and the temperature is computed for each segment of the toolpath.
-Requirements
-
-The code requires the following Python packages to be installed:
+This Python code simulates the temperature distribution in a domain during an additive manufacturing process, where a laser beam is used to melt a material and create a microslice layer by layer. The code uses the finite element method to solve the heat equation with convection, conduction, and heat generation terms. The toolpath information is read in from an Excel file, and the temperature is computed for each segment of the toolpath. The code requires the following Python packages to be installed:
 
 - dolfin
 - matplotlib
@@ -11,9 +8,7 @@ The code requires the following Python packages to be installed:
 
 ## *FEniCS/dolfin*
 
-The FEniCS Project is a collection of free and open-source software components with the common goal to enable automated solution of differential equations. The components provide scientific computing tools for working with computational meshes, finite-element variational formulations of ordinary and partial differential equations, and numerical linear algebra.
-
-The FEniCS Project is designed as an umbrella project for a collection of interoperable components. The core components include:
+The FEniCS Project is a collection of free and open-source software components with the common goal to enable automated solution of differential equations. The components provide scientific computing tools for working with computational meshes, finite-element variational formulations of ordinary and partial differential equations, and numerical linear algebra. The core components include:
 
 - UFL (Unified Form Language): A domain-specific language embedded in Python for specifying finite element discretizations of differential equations in terms of finite element variational forms.
 - FIAT (Finite element Automatic Tabulator): The finite element backend of FEniCS, a Python module for generation of arbitrary order finite element basis functions on simplices.
@@ -36,16 +31,14 @@ The toolpath information should be provided in an Excel file named data1.xlsx. T
 - Column 4: Layer number (not used in this code)
 
 To run the code, execute the following command in the terminal:
-
+```
     python3 benchmark.py
-
+```
 For the benchmark model, And
-
+```
     python3 homogenized.py
-
+```
 For the reduced order model
-
-The output will be a sequence of contour plots showing the temperature distribution and the toolpath overlay for each segment of the toolpath.
 
 ## *Outputs*
 
